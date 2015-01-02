@@ -1,0 +1,31 @@
+.dataTables_scroll {
+    clear: both;
+}
+
+    
+
+.dataTables_scrollBody {
+    *margin-top: -1px;
+    -webkit-overflow-scrolling: touch;
+}
+
+                .FixedHeader_Cloned th {
+				background-color: white;
+			}
+			th, td {
+				height: 30px;
+			}
+			#info {
+				position: absolute;
+				top: 100px;
+				left: 100px;
+				width: 300px;
+				background-color: white;
+				border: 1px solid blue;
+				z-index: 50;
+				padding: 20px;
+			}
+
+table.dataTable {
+  max-width: none;
+}
